@@ -15,10 +15,20 @@
 		"vscode": {
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"mongodb.mongodb-vscode"
-			]
+				"mongodb.mongodb-vscode",
+				"esbenp.prettier-vscode",
+				"vscode-icons-team.vscode-icons",
+				"wayou.vscode-todo-highlight"
+			],
+			"settings": {
+				"editor.fontSize": 32,
+				"terminal.integrated.fontSize": 24,
+				"editor.wordWrap": "on"
+			}
+			
 		}
-	}
+		
+	 }
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [3000, 27017],
