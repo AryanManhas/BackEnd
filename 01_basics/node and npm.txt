@@ -1,0 +1,17 @@
+Node.js basics:
+
+Introduction to Node.js
+
+Installing Node.js sand NP node and npm -> 
+
+working and working with npm
+
+npm init
+
+node basic usagWorking with modules.
+
+File System Operations
+
+understandiong HTTP module
+programming language X
+
