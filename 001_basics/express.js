@@ -1,10 +1,9 @@
-Express.js
+import express from 'express'
 
-// Introduction to Express.js
+const app = express()
 
-// express js ek npm package hai
+app.get('/', (req, res) => {
+  res.send('Hello World')
+})
 
-// framework -> 
-
-// Settings up a basic epxress application     
-
+app.listen(3000)

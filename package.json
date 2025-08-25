@@ -5,8 +5,13 @@
   "scripts": {
     "start": "node 001_basics/01_script.js && node 001_basics/02_script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "author": "Aryan Manhas",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "type": "module"
+  }
 }
