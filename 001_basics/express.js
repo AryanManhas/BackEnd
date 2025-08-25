@@ -10,12 +10,12 @@ const app = express();
 //app.get(route , requestHandler) //requestHandler is also a middleware
 
 app.get('/', (req, res) => { // requestHandler is a function
-  res.send('Hello User')
+  res.send('Hello User!!')
 })
 
 
 app.get('/profile', (req, res) => { // requestHandler is a function
-  res.send('Hello World')
+  res.send('Hello World!!')
 })
 
 app.listen(3000)
