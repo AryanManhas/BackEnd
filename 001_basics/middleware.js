@@ -6,6 +6,11 @@ app.use((req, res, next) => {
   next();
 });
 
+app.use((req, res, next) => {
+  console.log('middleware chla ek aur baar');
+  next();
+});
+
 app.get('/', (req, res) => {  
   res.send('Hello User!!');
 });
