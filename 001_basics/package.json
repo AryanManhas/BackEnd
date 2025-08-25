@@ -1,0 +1,19 @@
+{
+  "name": "001_basics",
+  "version": "1.0.0",
+  "main": "01_script.js",
+  "scripts": {
+    "dev": "nodemon 001_basics/middleware.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
