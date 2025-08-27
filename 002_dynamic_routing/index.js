@@ -14,6 +14,14 @@ app.get("/",(req , res) =>
 {
     res.render("index")
 })
+app.get("/profile/:username",(req , res) =>
+{
+    res.send(`welcome, ${req.params.username}`);
+})
+app.get("/profile/:username/:age",(req , res) =>
+{
+    res.send(`welcome, ${req.params.username} of age ${req.params.age}`);
+})
 
 app.listen(9090 , ()=>{
     `${console.log("Chal Rha Hai!!")}`
