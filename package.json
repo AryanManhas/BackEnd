@@ -6,14 +6,13 @@
     "start": "node 001_basics/01_script.js && node 001_basics/02_script.js",
     "dev": "nodemon 001_basics/middleware.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "author": "Aryan Manhas",
   "license": "ISC",
   "description": "",
+  "type": "module",
   "dependencies": {
-    "express": "^5.1.0",
-    "type": "module",
-    "cookie-parser": "^1.4.6"
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0"
   }
 }
