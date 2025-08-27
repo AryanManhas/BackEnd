@@ -9,10 +9,20 @@
   },
   "author": "Aryan Manhas",
   "license": "ISC",
-  "description": "",
+  "description": "A Code Repo for BackEnd containing NodeJS , ExpressJS , MongoDB etc.",
   "type": "module",
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "express": "^5.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AryanManhas/BackEnd.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/AryanManhas/BackEnd/issues"
+  },
+  "homepage": "https://github.com/AryanManhas/BackEnd#readme"
 }
